@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firmă de Mobilă la Comandă</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #8b5a2b;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #6b4226;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #8b5a2b;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #8b5a2b;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #6b4226;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Firmă de Mobilă la Comandă</h1>
+    </header>
+    <nav>
+        <a href="#about">Despre Noi</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>Despre Noi</h2>
+            <p>La BIALMOB, oferim soluții personalizate pentru toate nevoile tale de mobilier. Fiecare piesă de mobilă este realizată cu atenție la detalii și cu materiale de cea mai înaltă calitate.</p>
+        </section>
+        <section id="gallery" class="gallery">
+            <h2>Galerie</h2>
+            <!-- Replace 'image1.jpg', 'image2.jpg', etc. with your actual image paths -->
+            <img src="mob2.jpg" alt="Mobilă la comandă 1">
+            <img src="mob3.jpg" alt="Mobilă la comandă 2">
+            <img src="mob4.jpg" alt="Mobilă la comandă 3">
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Pentru comenzi sau informații suplimentare, sunați la <strong>Nr 0761 177 995</strong>.</p>
+            <div class="contact-form">
+                <h3>Trimite-ne un mesaj</h3>
+                <form action="bialmob22@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Numele tău" required>
+                    <input type="email" name="email" placeholder="Email-ul tău" required>
+                    <textarea name="message" placeholder="Mesajul tău" rows="5" required></textarea>
+                    <button type="submit">Trimite</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Firmă de Mobilă la Comandă. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
